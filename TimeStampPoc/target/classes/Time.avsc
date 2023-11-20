@@ -1,0 +1,29 @@
+{
+"namespace":"com.TimeStampPoc.CurrentTimeStamp.Stream.Schema",
+"type":"record",
+"name":"TimeStamp",
+
+"fields": [
+ {
+	 "name":"currentTime",
+	 "type":"string"
+ },
+  {
+     "name": "TransactionId",
+    "type": "string"
+  },
+  {
+    "name": "merchant_name",
+    "type":"string"
+  },
+  {
+    "name": "transaction_amt",
+    "type": "long"
+  },
+  {
+    "name": "Currency",
+    "type": "string"
+  }
+
+ ]
+ }
